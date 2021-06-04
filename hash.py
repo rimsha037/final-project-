@@ -23,3 +23,7 @@ if check_password(hashed_password, old_pass):
    st.write('You entered the right password')
 else:
    st.write('Passwords do not match')
+result = st.button("Click Here")
+st.write(result)
+if result:
+    st.write(":smile:")

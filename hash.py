@@ -2,6 +2,9 @@ import uuid
 import hashlib
 import streamlit as st
 
+st.title("PASSWORD TO HASH CONVERTER")
+
+
 def hash_password(password):
    # uuid is used to generate a random number of the specified password
    salt = uuid.uuid4().hex

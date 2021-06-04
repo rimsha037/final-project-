@@ -9,5 +9,5 @@ The web app was built in Python using the following libraries:
 * beautifulsoup4
 * urljoin
 
-project by husnain shahid 
-thanks ❤
+project by rimsha fiaz
+thanks 

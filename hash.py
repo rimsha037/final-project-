@@ -15,7 +15,7 @@ def check_hashes(password, hashed_text):
 
 
 def main():
-    st.header("-------------------Password Generator-------------------")
+    st.header("-------------------Password Checker-------------------")
     st.info("This APP will generate SHA256 Hashes ")
     image = Image.open('download (1).jpg')
     st.image(image, width=750)
